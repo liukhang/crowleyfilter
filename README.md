@@ -5,9 +5,10 @@
 {
     use CrowleyFilterable;
     ..........
-```}
-
+}
+```
 ## Controller
 
-$user = User::filter($request->all());
-return $user->get();
+```$user = User::filter($request->all());
+    return $user->get();
+```
