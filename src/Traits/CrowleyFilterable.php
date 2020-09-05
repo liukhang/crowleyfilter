@@ -4,7 +4,7 @@ namespace Crowley\Traits;
 
 use Illuminate\Support\Str;
 
-trait Filterable
+trait CrowleyFilterable
 {
     public function scopeFilter($query, $param)
     {
