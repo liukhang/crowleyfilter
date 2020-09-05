@@ -9,5 +9,5 @@ class User extends Model
 ## Controller
 ```
 $user = User::filter($request->all());
-    return $user->get();
+return $user->get();
 ```
