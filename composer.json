@@ -1,0 +1,30 @@
+{
+    "name": "crowley/filter",
+    "description": "Simple filter for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liu Khang",
+            "email": "liukhangdev@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crowley\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
