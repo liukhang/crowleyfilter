@@ -23,12 +23,12 @@ trait CrowleyFilterable
             if (empty($this->fillable) || !is_array($this->fillable)) {
                 continue;
             }
-            
+
             if (in_array($field, $this->fillable)) {
                 $query->where($this->table . '.' . $field, 'like', '%' . $value . '%');
                 continue;
             }
-            
+
             if (key_exists($field, $this->fillable)) {
                 $query->where($this->table . '.' . $this->fillable[$field], 'like', '%' . $value . '%');
                 continue;

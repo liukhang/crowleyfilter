@@ -1,3 +1,5 @@
+composer require crowley/filter
+
 ## Model
 ```
 class User extends Model
